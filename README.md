@@ -65,11 +65,18 @@
 ④提供一体机和软件部署包两种私有化方案，支持百万级人脸库精准查找，毫秒级搜索结果响应，适用于安防、监控等场景
 
 + 请求代码示例
-'''
-#encoding:utf-8
+
+```
+# encoding:utf-8
+
 import requests
-#人脸搜索
+
+'''
+人脸搜索
+'''
+
 request_url = "https://aip.baidubce.com/rest/2.0/face/v3/search"
+
 params = "{\"image\":\"027d8308a2ec665acb1bdf63e513bcb9\",\"image_type\":\"FACE_TOKEN\",\"group_id_list\":\"group_repeat,group_233\",\"quality_control\":\"LOW\",\"liveness_control\":\"NORMAL\"}"
 access_token = '[调用鉴权接口获取的token]'
 request_url = request_url + "?access_token=" + access_token
@@ -77,8 +84,26 @@ headers = {'content-type': 'application/json'}
 response = requests.post(request_url, data=params, headers=headers)
 if response:
     print (response.json())
-'''
+```
 
++ 返回结果
+
+![返回结果](https://gitee.com/NFUNM080/platform_economy_and_innovation/raw/master/%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C.png)
+
++ 返回示例
+```
+  {
+    "face_token": "fid",
+    "user_list": [  
+       {
+          "group_id" : "test1",
+          "user_id": "u333333",
+          "user_info": "Test User",
+          "score": 99.3  
+      }
+    ]
+  }
+``` 
 2. 百度API——人像分割
 + HTTP 方法：POST
 + 请求URL： https://aip.baidubce.com/rest/2.0/image-classify/v1/body_seg
@@ -86,11 +111,48 @@ if response:
 ①将原始图片中的人像分离出来，选择新的背景图像进行替换、合成
 ②人像分割算法业界领先
 ③支持返回分割后的二值图、灰度图、人像前景图，并可通过参数设置，自主设置返回哪些结果图，避免造成带宽浪费
+④对于输入的一张图片（可正常解码，且长宽比适宜），识别人体的轮廓范围，与背景进行分离，适用于拍照背景替换、照片合成、身体特效等场景。输入正常人像图片，返回分割后的二值结果图、灰度图、透明背景的人像图（png格式）。
+
++ 请求代码示例
+``` 
+# encoding:utf-8
+
+import requests
+import base64
+
+'''
+人像分割
+'''
+
+request_url = "https://aip.baidubce.com/rest/2.0/image-classify/v1/body_seg"
+# 二进制方式打开图片文件
+f = open('[本地文件]', 'rb')
+img = base64.b64encode(f.read())
+
+params = {"image":img}
+access_token = '[调用鉴权接口获取的token]'
+request_url = request_url + "?access_token=" + access_token
+headers = {'content-type': 'application/x-www-form-urlencoded'}
+response = requests.post(request_url, data=params, headers=headers)
+if response:
+    print (response.json())
+``` 
++ 返回示例
+```
+{
+	"log_id": 716033439,
+	"labelmap": "xxxx",
+	"scoremap": "xxxx",
+	"foreground": "xxxx"
+}
+
+```
 
 
 3. 高德API——地理围栏
 + API价值定位
-
+开发者根据业务需求合理的在地图上圈定指定区域，创建围栏，定位 SDK 提供根据高德POI，行政区划，自定义圆形，多边形四种方式创建地理围栏，开发者可根据围栏圈定的范围进行精准操作。
+[高德API地理围栏]: https://lbs.amap.com/api/android-location-sdk/guide/additional-func/local-geofence
 #### 十二.AI产品概率性 
 百度人脸搜索的特色优势
 + 支持百万级规模的人脸库管理和搜索，检索速度业内领先，可应对各种业务需求
