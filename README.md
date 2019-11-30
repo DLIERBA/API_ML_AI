@@ -64,6 +64,9 @@
 ③提供在线的人脸搜索接口、人脸库管理组合接口，可以快速集成，达到百万人脸库毫秒级检索速度，实现黑白名单自定义匹配等功能
 ④提供一体机和软件部署包两种私有化方案，支持百万级人脸库精准查找，毫秒级搜索结果响应，适用于安防、监控等场景
 
++ 免费配额
+![免费配额](https://gitee.com/NFUNM080/pydata-notebook/raw/master/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E8%84%B8%E6%90%9C%E7%B4%A2.png)
+
 + 请求代码示例
 
 ```
@@ -113,6 +116,10 @@ if response:
 ③支持返回分割后的二值图、灰度图、人像前景图，并可通过参数设置，自主设置返回哪些结果图，避免造成带宽浪费
 ④对于输入的一张图片（可正常解码，且长宽比适宜），识别人体的轮廓范围，与背景进行分离，适用于拍照背景替换、照片合成、身体特效等场景。输入正常人像图片，返回分割后的二值结果图、灰度图、透明背景的人像图（png格式）。
 
++ 免费配额
+
+![免费配额](https://gitee.com/NFUNM080/pydata-notebook/raw/master/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2.png)
+
 + 请求代码示例
 ``` 
 # encoding:utf-8
@@ -152,7 +159,12 @@ if response:
 3. 高德API——地理围栏
 + API价值定位
 开发者根据业务需求合理的在地图上圈定指定区域，创建围栏，定位 SDK 提供根据高德POI，行政区划，自定义圆形，多边形四种方式创建地理围栏，开发者可根据围栏圈定的范围进行精准操作。
-[高德API地理围栏]: https://lbs.amap.com/api/android-location-sdk/guide/additional-func/local-geofence
+[高德API地理围栏]: https://lbs.amap.com/api/webservice/guide/api/geofence_service
+
++ API的配额
+
+![免费配额](https://gitee.com/NFUNM080/pydata-notebook/raw/master/%E9%85%8D%E9%A2%9D.png)
+
 #### 十二.AI产品概率性 
 百度人脸搜索的特色优势
 + 支持百万级规模的人脸库管理和搜索，检索速度业内领先，可应对各种业务需求
