@@ -66,16 +66,10 @@
 
 + 请求代码示例
 '''
-# encoding:utf-8
-
+#encoding:utf-8
 import requests
-
-'''
-人脸搜索
-'''
-
+#人脸搜索
 request_url = "https://aip.baidubce.com/rest/2.0/face/v3/search"
-
 params = "{\"image\":\"027d8308a2ec665acb1bdf63e513bcb9\",\"image_type\":\"FACE_TOKEN\",\"group_id_list\":\"group_repeat,group_233\",\"quality_control\":\"LOW\",\"liveness_control\":\"NORMAL\"}"
 access_token = '[调用鉴权接口获取的token]'
 request_url = request_url + "?access_token=" + access_token
