@@ -65,8 +65,8 @@
 ④提供一体机和软件部署包两种私有化方案，支持百万级人脸库精准查找，毫秒级搜索结果响应，适用于安防、监控等场景
 
 + 请求代码示例
-    ```
-       # encoding:utf-8
+'''
+# encoding:utf-8
 
 import requests
 
@@ -83,8 +83,8 @@ headers = {'content-type': 'application/json'}
 response = requests.post(request_url, data=params, headers=headers)
 if response:
     print (response.json())
+'''
 
-    ```
 2. 百度API——人像分割
 + HTTP 方法：POST
 + 请求URL： https://aip.baidubce.com/rest/2.0/image-classify/v1/body_seg
