@@ -52,7 +52,7 @@
 
 
 #### 十.产品结构图
-
+![产品流程图](https://gitee.com/NFUNM080/pydata-notebook/raw/master/毕业纪念产品流程图.jpg)
 
 #### 十一.API 的运用 
 1. 百度API——人脸搜索
@@ -178,7 +178,7 @@ if response:
 2. 安全思维贯彻开发过程始终
 3. 应用行业安全最佳实践和标准
 
-+ 参考文章
++ 参考文章：
 [API安全风险]: https://www.fisec.cn/854.html
 [API成为企业黑客攻击目标，你的API还安全吗？]: https://baijiahao.baidu.com/s?id=1607045952862598854&wfr=spider&for=pc
 #### 产品的可行性
