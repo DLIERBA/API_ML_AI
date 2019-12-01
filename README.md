@@ -49,10 +49,20 @@
 |用户想了解老同学的地理分布情况|地理围栏|次重要|
 
 #### 九.使用者交互与设计（axure产品原型）
-
+略
 
 #### 十.产品结构图
-![产品流程图](https://gitee.com/NFUNM080/pydata-notebook/raw/master/毕业纪念产品流程图.jpg)
++ 产品功能结构图
+![产品功能结构图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E4%BA%A7%E5%93%81%E5%8A%9F%E8%83%BD%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+
++ 产品信息结构图
+![产品信息结构图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E4%BA%A7%E5%93%81%E4%BF%A1%E6%81%AF%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
+
++产品流程图
+![产品流程图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5%E4%BA%A7%E5%93%81%E6%B5%81%E7%A8%8B%E5%9B%BE.jpg)
+
++ 产品结构图
+![产品结构图](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E4%BA%A7%E5%93%81%E7%BB%93%E6%9E%84%E5%9B%BE.jpg)
 
 #### 十一.API 的运用 
 1. 百度API——人脸搜索
@@ -65,7 +75,7 @@
 ④提供一体机和软件部署包两种私有化方案，支持百万级人脸库精准查找，毫秒级搜索结果响应，适用于安防、监控等场景
 
 + 免费配额
-![免费配额](https://gitee.com/NFUNM080/pydata-notebook/raw/master/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E8%84%B8%E6%90%9C%E7%B4%A2.png)
+![免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E8%84%B8%E6%90%9C%E7%B4%A2.png)
 
 + 请求代码示例
 
@@ -91,7 +101,7 @@ if response:
 
 + 返回结果
 
-![返回结果](https://gitee.com/NFUNM080/platform_economy_and_innovation/raw/master/%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C.png)
+![返回结果](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E8%BF%94%E5%9B%9E%E7%BB%93%E6%9E%9C.png)
 
 + 返回示例
 ```
@@ -118,7 +128,7 @@ if response:
 
 + 免费配额
 
-![免费配额](https://gitee.com/NFUNM080/pydata-notebook/raw/master/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2.png)
+![免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E7%99%BE%E5%BA%A6API%E4%BA%BA%E5%83%8F%E5%88%86%E5%89%B2.png)
 
 + 请求代码示例
 ``` 
@@ -163,7 +173,7 @@ if response:
 
 + API的配额
 
-![免费配额](https://gitee.com/NFUNM080/pydata-notebook/raw/master/%E9%85%8D%E9%A2%9D.png)
+![免费配额](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E9%85%8D%E9%A2%9D.png)
 
 #### 十二.AI产品概率性 
 + 百度人脸搜索：万级别人脸库首选识别率高达99%以上
