@@ -49,7 +49,27 @@
 |用户想了解老同学的地理分布情况|地理围栏|次重要|
 
 #### 九.使用者交互与设计（axure产品原型）
-略
+
++ 毕业纪念APP首页
+![毕业纪念APP首页](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%AF%95%E4%B8%9A%E7%BA%AA%E5%BF%B5APP%E9%A6%96%E9%A1%B5.png)
+
++ 今昔对比功能
+![今昔对比功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E5%83%8F%E6%8A%A0%E5%9B%BE1.png)
+![今昔对比功能2](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E5%83%8F%E6%8A%A0%E5%9B%BE2.png)
+
++ 人脸搜索功能
+![人脸搜索功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB1.png)
+![人脸搜索功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E4%BA%BA%E8%84%B8%E8%AF%86%E5%88%AB2.png)
+
++ 寻找附近好友功能
+![寻找附近好友功能1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E5%9C%B0%E7%90%86%E5%9B%B4%E6%A0%8F1.png)
+![寻找附近好友功能2](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E5%9C%B0%E7%90%86%E5%9B%B4%E6%A0%8F2.png)
+
++ 我的
+![我的1](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%88%91%E7%9A%841.png)
+![我的2](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%88%91%E7%9A%842.png)
+![我的3](https://raw.githubusercontent.com/DLIERBA/API_ML_AI/master/images/%E6%88%91%E7%9A%843.png)
+
 
 #### 十.产品结构图
 + 产品功能结构图
