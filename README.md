@@ -191,7 +191,7 @@ if response:
 3. 高德API——地理围栏
 + API价值定位
 开发者根据业务需求合理的在地图上圈定指定区域，创建围栏，定位 SDK 提供根据高德POI，行政区划，自定义圆形，多边形四种方式创建地理围栏，开发者可根据围栏圈定的范围进行精准操作。
-[高德API地理围栏]: https://lbs.amap.com/api/webservice/guide/api/geofence_service
+[高德API地理围栏](https://lbs.amap.com/api/webservice/guide/api/geofence_service)
 
 + API的配额
 
@@ -211,8 +211,9 @@ if response:
 3. 应用行业安全最佳实践和标准
 
 + 参考文章：
-[API安全风险]: https://www.fisec.cn/854.html
-[API成为企业黑客攻击目标，你的API还安全吗？]: https://baijiahao.baidu.com/s?id=1607045952862598854&wfr=spider&for=pc
+[API安全风险](https://www.fisec.cn/854.html)
+[API成为企业黑客攻击目标，你的API还安全吗？](https://baijiahao.baidu.com/s?id=1607045952862598854&wfr=spider&for=pc)
+
 #### 产品的可行性
 1. 该产品是一个APP
 + App可以实现完整功能，灵活性强
@@ -245,3 +246,4 @@ if response:
 + 到APP被广泛应用，拥有较为稳定的用户群体时，可减少甚至取消先前为了吸引新用户所采取的奖励，并且可以考虑增加其他功能，利用持续创新的手段吸引新用户以及留住旧用户
 + 发展到一定阶段后，APP可能会接手广告业务获利；或者在APP内开设购物功能，贩卖毕业用品之类的；也有可能选择增设会员服务，以吸引用户在APP内消费，最终实现APP盈利
 #### 附录
+[毕业纪念APP原型完整版](http://nfunm080.gitee.io/graduation-memorial)
